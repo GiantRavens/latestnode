@@ -1,0 +1,2 @@
+# requires httpie module httpie.org
+alias latestnode="http https://nodejs.org/en/ | grep Current | grep -v data-version"
